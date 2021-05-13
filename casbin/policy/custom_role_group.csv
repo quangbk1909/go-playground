@@ -1,0 +1,9 @@
+p,alice,data,read
+p,alice,role,admin
+p,dev,data2,read
+p,dev,role,admin3
+g,data::write,admin
+g,data::exec,admin
+g,data2::write,admin2
+g,admin2,admin3
+g2,alice, dev

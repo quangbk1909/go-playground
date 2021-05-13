@@ -1,0 +1,50 @@
+{
+  "images": {
+    "front_image": "00001242-5c01-475b-888a-e8aa321e28e1",
+    "rear_image": "000027ae-2795-42ce-b19d-2392e8b7b3e2",
+    "face_image": "0000cba3-10f4-4f37-95c9-35caad4ed086"
+  },
+  "ocr_result": {
+    "data": {
+      "full_name": "VŨ VĂN BIÊN",
+      "dob": "11/03/1987",
+      "gender": "NAM",
+      "identity_number": "033087005838",
+      "identity_type": "vn.cccd",
+      "issue_date": "22/03/2019",
+      "issue_place": "CỤC TRƯỞNG CỤC CẢNH SÁT QUẢN LÝ HÀNH CHÍNH VỀ TRẬT TỰ XÃ HỘI",
+      "nationality": "VIỆT NAM",
+      "expire_date": "11/03/2027",
+      "permanent_address": "TDP SỐ 8, ĐÔNG NGẠC, BẮC TỪ LIÊM, HÀ NỘI",
+      "hometown_address": "QUẢNG LÃNG, ÂN THI, HƯNG YÊN"
+    },
+    "score": {
+      "full_name": 1,
+      "dob": 1,
+      "gender": 1,
+      "identity_number": 1,
+      "identity_type": 0,
+      "issue_date": 1,
+      "issue_place": 1,
+      "nationality": 0,
+      "expire_date": 1,
+      "permanent_address": 1,
+      "hometown_address": 0
+    }
+  },
+  "face_result": {
+    "face_matching_score": 0.809,
+    "is_live": true,
+    "liveness_score": 1
+  },
+  "id_tampering_result": {
+    "score": 1,
+    "verdict": "alert",
+    "details": [
+      {
+        "score": 1,
+        "verdict": "info_tampered"
+      }
+    ]
+  }
+}
